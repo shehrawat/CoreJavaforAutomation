@@ -1,0 +1,9 @@
+package FinalConceptPackage;
+
+public class ChildClass {
+	
+	public void start() {
+		System.out.println("Child class----start method");
+	}
+
+}

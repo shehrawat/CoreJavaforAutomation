@@ -1,0 +1,21 @@
+package OOPConceptPart1;
+
+public class CallByValAndCallByRef {
+
+	public static void main(String[] args) {
+		
+		CallByValAndCallByRef obj = new CallByValAndCallByRef();
+		int x = 10;
+		int y = 20;
+		obj.sumtest(x, y); //call by value OR pass by value
+	}
+	
+	
+	public int sumtest(int a, int b) {
+		a = 30;
+		b = 40;
+		int c = a+b;
+		return c;
+	}	
+
+}

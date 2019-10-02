@@ -1,0 +1,15 @@
+package ConstructorConcept;
+
+public class ConstructorConcept {
+	
+	//Constructor: it is a class entity which is used to define class features while creating the object
+	
+	public ConstructorConcept() {
+		
+	}
+
+	public static void main(String[] args) {
+
+	}
+
+}

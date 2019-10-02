@@ -1,0 +1,21 @@
+package ConstructorConcept;
+
+public class C {
+	
+	public void abc() {
+		System.out.println("abc");
+	}
+	
+	public void xyz() {
+		System.out.println("xyz");
+	}
+	
+	public void pqr() {
+		System.out.println("abc");
+	}
+
+	public static void main(String[] args) {
+
+	}
+
+}

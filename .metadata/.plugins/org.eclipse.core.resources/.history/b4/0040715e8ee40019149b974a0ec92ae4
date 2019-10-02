@@ -1,0 +1,10 @@
+package FinalConceptPackage;
+
+public class ParentClass {	//you cannot inherit this class
+	//to prevent inheritance we use final keyword with class
+	
+	public final void start() {
+		System.out.println("Parent class----start method");
+	}
+
+}

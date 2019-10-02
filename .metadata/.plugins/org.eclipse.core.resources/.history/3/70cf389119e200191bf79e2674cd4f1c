@@ -1,0 +1,14 @@
+package OOPConceptPart2;
+
+public class BMW extends Car {
+	
+	//method overriding - when same method is present in parent class as well as child class with same name and number of arguments
+	public void start() {
+		System.out.println("BMW----start");
+	}
+	
+	public void theftsafety() {
+		System.out.println("BMW----theftsafety");
+	}
+
+}

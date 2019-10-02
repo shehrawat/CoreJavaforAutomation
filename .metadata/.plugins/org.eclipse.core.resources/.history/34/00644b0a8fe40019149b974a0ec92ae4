@@ -1,0 +1,22 @@
+package FinalConceptPackage;
+
+public class FinallyConcept {
+
+	public static void main(String[] args) {
+
+	}
+	
+	public void test1() {
+		try {
+			System.out.println("inside test1 method");
+			throw new RuntimeException("test");
+		}catch(Exception E) {
+			System.out.println("inside catch block");
+		}
+		
+		finally {
+			System.out.println("inside finally block");
+		}
+	}
+
+}

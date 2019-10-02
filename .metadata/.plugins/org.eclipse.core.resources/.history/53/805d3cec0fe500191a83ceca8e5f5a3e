@@ -1,0 +1,20 @@
+package ConstructorConcept;
+
+public class ConstructorWithThisKeyword {
+	
+	//global variables
+	String name;
+	int age;
+	
+	ConstructorWithThisKeyword(String name, int age) {
+		System.out.println(name);
+		System.out.println(age);
+		
+	}
+
+	public static void main(String[] args) {
+		ConstructorWithThisKeyword obj = new ConstructorWithThisKeyword("Ajay",25);
+
+	}
+
+}
