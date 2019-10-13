@@ -1,9 +1,0 @@
-package FinalConceptPackage;
-
-public final class ParentClass {	//you cannot inherit this class
-	
-	public void start() {
-		System.out.println("Parent class----start method");
-	}
-
-}

@@ -1,9 +1,0 @@
-package ConstructorConcept;
-
-public class B {
-	
-	public B() {
-		System.out.println("child class constructor");
-	}
-
-}
